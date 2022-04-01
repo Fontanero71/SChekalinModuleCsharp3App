@@ -5,9 +5,11 @@ namespace SChekalinModuleCsharp3App
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Sergei";
+            const string MyName = "Sergei";
             Console.WriteLine(MyName);
+            Console.WriteLine("Hello, world!");
+            Console.WriteLine("I'm 50 years old");
+            Console.WriteLine("My name is Sergei");
             Console.ReadKey();
         }
     }
