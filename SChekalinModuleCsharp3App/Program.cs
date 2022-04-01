@@ -5,15 +5,14 @@ namespace SChekalinModuleCsharp3App
     {
         static void Main(string[] args)
         {
-            string MyName = "Sergei";
-            byte MyAge = 50;
-            bool HaveIApet = true;
-            double MyShoeSize = 42.5;
-
-            Console.WriteLine($"My name is {MyName}");
-            Console.WriteLine($"MyAge {MyAge}");
-            Console.WriteLine($"Do I have a pet? {HaveIApet}");
-            Console.WriteLine($"My shoe size is {MyShoeSize}");
+            Console.Write("Enter your name: ");
+            string MyName = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            byte MyAge = checked( (byte) int.Parse(Console.ReadLine()));
+            Console.WriteLine($"Your name is {MyName} and age is {MyAge}.");
+            Console.Write("Enter your birthday: ");
+            string MyBirthday = Console.ReadLine();
+            Console.WriteLine($"Your birthday is {MyBirthday}.");
         }
     }
 }
