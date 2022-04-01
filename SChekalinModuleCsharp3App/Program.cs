@@ -9,7 +9,7 @@ namespace SChekalinModuleCsharp3App
             Console.WriteLine(MyName);
             Console.WriteLine("Hello, world!");
             Console.WriteLine("I'm 50 years old");
-            Console.WriteLine("My name is Sergei");
+            Console.WriteLine("My name is\n Sergei");
             Console.ReadKey();
         }
     }
