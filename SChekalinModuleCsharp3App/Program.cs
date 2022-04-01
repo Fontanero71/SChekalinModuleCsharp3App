@@ -5,14 +5,15 @@ namespace SChekalinModuleCsharp3App
     {
         static void Main(string[] args)
         {
-            const string MyName = "Sergei";
-            Console.WriteLine(MyName);
-            Console.WriteLine("Hello, world!");
-            Console.WriteLine("I'm 50 years old");
-            Console.WriteLine("My name is\n Sergei");
-            Console.WriteLine("\u0040");
-            Console.WriteLine("\x23");
-            Console.ReadKey();
+            string MyName = "Sergei";
+            byte MyAge = 50;
+            bool HaveIApet = true;
+            double MyShoeSize = 42.5;
+
+            Console.WriteLine($"My name is {MyName}");
+            Console.WriteLine($"MyAge {MyAge}");
+            Console.WriteLine($"Do I have a pet? {HaveIApet}");
+            Console.WriteLine($"My shoe size is {MyShoeSize}");
         }
     }
 }
